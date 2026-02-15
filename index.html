@@ -1,0 +1,846 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Expert Roofing Repair Services in Hollywood, FL | Marzo Roofing Miami</title>
+      <meta name="description" content="Professional roofing repair services in Hollywood, FL. Expert roofing contractor specializing in roof repair, replacement, and installation. Call 786-659-1786 today.">
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+
+          body {
+              font-family: 'Georgia', 'Times New Roman', serif;
+              color: #2C2C2C;
+              line-height: 1.6;
+              overflow-x: hidden;
+              background: #FAF7F2;
+          }
+
+          /* Header Styles */
+          header {
+              position: sticky;
+              top: 0;
+              background: linear-gradient(135deg, #FAF7F2 0%, #FFFFFF 100%);
+              padding: 1rem 2rem;
+              box-shadow: 0 4px 20px rgba(139, 21, 56, 0.15);
+              z-index: 1000;
+              animation: slideDown 0.6s ease-out;
+              border-bottom: 2px solid #D4AF87;
+          }
+
+          @keyframes slideDown {
+              from {
+                  transform: translateY(-100%);
+                  opacity: 0;
+              }
+              to {
+                  transform: translateY(0);
+                  opacity: 1;
+              }
+          }
+
+          .header-content {
+              max-width: 1400px;
+              margin: 0 auto;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 1rem;
+          }
+
+          .logo-section {
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+          }
+
+          .logo {
+              width: 80px;
+              height: 80px;
+              border-radius: 50%;
+              box-shadow: 0 8px 20px rgba(212, 175, 135, 0.4);
+              border: 3px solid #D4AF87;
+              background: linear-gradient(135deg, #8B1538 0%, #6B0F2E 100%);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 2rem;
+              color: #D4AF87;
+              font-weight: bold;
+          }
+
+          .brand-name {
+              color: #8B1538;
+              font-size: 1.5rem;
+              font-weight: bold;
+              letter-spacing: 0.5px;
+          }
+
+          .header-buttons {
+              display: flex;
+              gap: 1rem;
+              align-items: center;
+          }
+
+          .btn-header {
+              padding: 0.8rem 1.8rem;
+              border: none;
+              border-radius: 50px;
+              font-size: 1rem;
+              font-weight: 600;
+              cursor: pointer;
+              transition: all 0.3s ease;
+              text-decoration: none;
+              display: inline-block;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .btn-phone {
+              background: linear-gradient(135deg, #D4AF87 0%, #C9A961 100%);
+              color: #2C2C2C;
+              box-shadow: 0 4px 15px rgba(212, 175, 135, 0.4);
+          }
+
+          .btn-phone:hover {
+              transform: translateY(-2px);
+              box-shadow: 0 6px 25px rgba(212, 175, 135, 0.6);
+          }
+
+          .btn-website {
+              background: transparent;
+              color: #D4AF87;
+              border: 2px solid #D4AF87;
+          }
+
+          .btn-website:hover {
+              background: #D4AF87;
+              color: #2C2C2C;
+              transform: translateY(-2px);
+          }
+
+          /* Hero Section */
+          .hero {
+              position: relative;
+              background: linear-gradient(135deg, #8B1538 0%, #6B0F2E 50%, #4A0A1F 100%);
+              padding: 8rem 2rem 6rem;
+              text-align: center;
+              overflow: hidden;
+          }
+
+          .hero::before {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: 
+                  radial-gradient(circle at 20% 50%, rgba(212, 175, 135, 0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 50%, rgba(212, 175, 135, 0.1) 0%, transparent 50%);
+              animation: shimmer 8s ease-in-out infinite;
+          }
+
+          @keyframes shimmer {
+              0%, 100% { opacity: 0.3; }
+              50% { opacity: 0.6; }
+          }
+
+          .hero-content {
+              position: relative;
+              z-index: 1;
+              max-width: 1000px;
+              margin: 0 auto;
+              animation: fadeInUp 1s ease-out;
+          }
+
+          @keyframes fadeInUp {
+              from {
+                  opacity: 0;
+                  transform: translateY(30px);
+              }
+              to {
+                  opacity: 1;
+                  transform: translateY(0);
+              }
+          }
+
+          .hero h1 {
+              font-size: 3.5rem;
+              color: #FAF7F2;
+              margin-bottom: 1.5rem;
+              font-weight: 700;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+              line-height: 1.2;
+          }
+
+          .hero-subheading {
+              font-size: 1.5rem;
+              color: #D4AF87;
+              margin-bottom: 3rem;
+              font-weight: 300;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .hero-cta {
+              display: flex;
+              gap: 1.5rem;
+              justify-content: center;
+              flex-wrap: wrap;
+          }
+
+          .btn-hero {
+              padding: 1.2rem 3rem;
+              border: none;
+              border-radius: 50px;
+              font-size: 1.1rem;
+              font-weight: 600;
+              cursor: pointer;
+              transition: all 0.3s ease;
+              text-decoration: none;
+              display: inline-block;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .btn-primary {
+              background: linear-gradient(135deg, #D4AF87 0%, #C9A961 100%);
+              color: #2C2C2C;
+              box-shadow: 0 6px 25px rgba(212, 175, 135, 0.5);
+          }
+
+          .btn-primary:hover {
+              transform: translateY(-3px);
+              box-shadow: 0 8px 35px rgba(212, 175, 135, 0.7);
+          }
+
+          .btn-secondary {
+              background: transparent;
+              color: #D4AF87;
+              border: 2px solid #D4AF87;
+          }
+
+          .btn-secondary:hover {
+              background: rgba(212, 175, 135, 0.2);
+              transform: translateY(-3px);
+          }
+
+          /* Section Styles */
+          section {
+              padding: 5rem 2rem;
+              max-width: 1400px;
+              margin: 0 auto;
+          }
+
+          .section-title {
+              font-size: 2.8rem;
+              color: #8B1538;
+              text-align: center;
+              margin-bottom: 1rem;
+              font-weight: 700;
+          }
+
+          .section-subtitle {
+              font-size: 1.2rem;
+              color: #6B0F2E;
+              text-align: center;
+              margin-bottom: 4rem;
+              font-family: 'Arial', sans-serif;
+              font-weight: 300;
+          }
+
+          /* About Section */
+          .about-content {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 3rem;
+              align-items: center;
+              margin-bottom: 3rem;
+              animation: fadeIn 1s ease-out;
+          }
+
+          @keyframes fadeIn {
+              from { opacity: 0; }
+              to { opacity: 1; }
+          }
+
+          .about-text {
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: #2C2C2C;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .about-text p {
+              margin-bottom: 1.5rem;
+          }
+
+          .about-text a {
+              color: #8B1538;
+              text-decoration: none;
+              font-weight: 600;
+              transition: color 0.3s ease;
+          }
+
+          .about-text a:hover {
+              color: #D4AF87;
+          }
+
+          .about-images {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 1.5rem;
+          }
+
+          .about-image {
+              width: 100%;
+              height: 300px;
+              object-fit: cover;
+              border-radius: 20px;
+              box-shadow: 0 10px 30px rgba(139, 21, 56, 0.2);
+              transition: all 0.3s ease;
+          }
+
+          .about-image:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 15px 40px rgba(139, 21, 56, 0.3);
+          }
+
+          /* Services Section */
+          .services-grid {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+              gap: 2rem;
+              margin-top: 3rem;
+          }
+
+          .service-card {
+              background: linear-gradient(135deg, #FFFFFF 0%, #FAF7F2 100%);
+              padding: 2.5rem;
+              border-radius: 20px;
+              box-shadow: 0 8px 25px rgba(139, 21, 56, 0.1);
+              transition: all 0.4s ease;
+              border: 1px solid rgba(212, 175, 135, 0.2);
+              animation: fadeInUp 0.6s ease-out;
+          }
+
+          .service-card:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 15px 45px rgba(139, 21, 56, 0.2);
+              border-color: #D4AF87;
+          }
+
+          .service-card h3 {
+              font-size: 1.6rem;
+              color: #8B1538;
+              margin-bottom: 1rem;
+              font-weight: 600;
+          }
+
+          .service-card p {
+              font-size: 1rem;
+              color: #2C2C2C;
+              line-height: 1.7;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .service-card a {
+              color: #8B1538;
+              text-decoration: none;
+              font-weight: 600;
+              transition: color 0.3s ease;
+          }
+
+          .service-card a:hover {
+              color: #D4AF87;
+          }
+
+          /* Blog Section */
+          .blog-grid {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+              gap: 3rem;
+              margin-top: 3rem;
+          }
+
+          .blog-article {
+              background: #FFFFFF;
+              padding: 3rem;
+              border-radius: 20px;
+              box-shadow: 0 8px 25px rgba(139, 21, 56, 0.1);
+              border-left: 4px solid #D4AF87;
+              transition: all 0.3s ease;
+          }
+
+          .blog-article:hover {
+              box-shadow: 0 12px 35px rgba(139, 21, 56, 0.2);
+              transform: translateX(5px);
+          }
+
+          .blog-article h3 {
+              font-size: 1.8rem;
+              color: #8B1538;
+              margin-bottom: 1.5rem;
+              font-weight: 600;
+          }
+
+          .blog-article p {
+              font-size: 1rem;
+              color: #2C2C2C;
+              line-height: 1.8;
+              margin-bottom: 1rem;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .blog-article a {
+              color: #8B1538;
+              text-decoration: none;
+              font-weight: 600;
+              transition: color 0.3s ease;
+          }
+
+          .blog-article a:hover {
+              color: #D4AF87;
+          }
+
+          /* FAQ Section */
+          .faq-container {
+              max-width: 900px;
+              margin: 0 auto;
+          }
+
+          .faq-item {
+              background: #FFFFFF;
+              margin-bottom: 1.5rem;
+              border-radius: 15px;
+              overflow: hidden;
+              box-shadow: 0 4px 15px rgba(139, 21, 56, 0.1);
+              transition: all 0.3s ease;
+          }
+
+          .faq-item:hover {
+              box-shadow: 0 6px 25px rgba(139, 21, 56, 0.15);
+          }
+
+          .faq-question {
+              background: linear-gradient(135deg, #8B1538 0%, #6B0F2E 100%);
+              color: #FAF7F2;
+              padding: 1.5rem 2rem;
+              cursor: pointer;
+              font-size: 1.3rem;
+              font-weight: 600;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              transition: all 0.3s ease;
+          }
+
+          .faq-question:hover {
+              background: linear-gradient(135deg, #6B0F2E 0%, #8B1538 100%);
+          }
+
+          .faq-question::after {
+              content: '+';
+              font-size: 2rem;
+              color: #D4AF87;
+              transition: transform 0.3s ease;
+          }
+
+          .faq-question.active::after {
+              transform: rotate(45deg);
+          }
+
+          .faq-answer {
+              max-height: 0;
+              overflow: hidden;
+              transition: max-height 0.4s ease, padding 0.4s ease;
+              padding: 0 2rem;
+              font-family: 'Arial', sans-serif;
+          }
+
+          .faq-answer.active {
+              max-height: 500px;
+              padding: 1.5rem 2rem;
+          }
+
+          .faq-answer p {
+              color: #2C2C2C;
+              line-height: 1.7;
+          }
+
+          /* Location Section */
+          .location-content {
+              width: 100%;
+              max-width: 100%;
+          }
+
+          .map-container {
+              border-radius: 20px;
+              overflow: hidden;
+              box-shadow: 0 8px 25px rgba(139, 21, 56, 0.2);
+              height: 500px;
+              width: 100%;
+          }
+
+          .map-container iframe {
+              width: 100%;
+              height: 100%;
+              border: none;
+          }
+
+          /* Footer */
+          footer {
+              background: linear-gradient(135deg, #2C2C2C 0%, #1F1F1F 100%);
+              color: #FAF7F2;
+              padding: 4rem 2rem 2rem;
+              position: relative;
+              overflow: hidden;
+          }
+
+          footer::before {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: 
+                  radial-gradient(circle at 20% 80%, rgba(139, 21, 56, 0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 20%, rgba(212, 175, 135, 0.08) 0%, transparent 50%);
+              pointer-events: none;
+          }
+
+          .footer-content {
+              max-width: 1400px;
+              margin: 0 auto;
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+              gap: 3rem;
+              margin-bottom: 2rem;
+              position: relative;
+              z-index: 1;
+          }
+
+          .footer-section {
+              text-align: center;
+          }
+
+          .footer-section h3 {
+              color: #D4AF87;
+              font-size: 1.5rem;
+              margin-bottom: 1.5rem;
+              font-weight: 600;
+              letter-spacing: 1px;
+          }
+
+          .footer-section p,
+          .footer-section a {
+              color: #FAF7F2;
+              text-decoration: none;
+              line-height: 2;
+              font-family: 'Arial', sans-serif;
+              display: block;
+              transition: all 0.3s ease;
+              margin: 0.5rem 0;
+          }
+
+          .footer-section a:hover {
+              color: #D4AF87;
+          }
+
+          .footer-bottom {
+              text-align: center;
+              padding-top: 2rem;
+              border-top: 1px solid rgba(212, 175, 135, 0.3);
+              color: #D4AF87;
+              font-family: 'Arial', sans-serif;
+              position: relative;
+              z-index: 1;
+              font-size: 0.95rem;
+          }
+
+          /* Responsive Design */
+          @media (max-width: 1024px) {
+              .about-content {
+                  grid-template-columns: 1fr;
+              }
+
+              .services-grid,
+              .blog-grid {
+                  grid-template-columns: 1fr;
+              }
+          }
+
+          @media (max-width: 768px) {
+              .hero h1 {
+                  font-size: 2.5rem;
+              }
+
+              .hero-subheading {
+                  font-size: 1.2rem;
+              }
+
+              .section-title {
+                  font-size: 2rem;
+              }
+
+              .header-content {
+                  flex-direction: column;
+                  text-align: center;
+              }
+
+              .hero-cta {
+                  flex-direction: column;
+              }
+
+              .about-images {
+                  grid-template-columns: 1fr;
+              }
+          }
+
+          /* Scroll Animation */
+          .animate-on-scroll {
+              opacity: 0;
+              transform: translateY(30px);
+              transition: all 0.6s ease-out;
+          }
+
+          .animate-on-scroll.animated {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      </style>
+  </head>
+  <body>
+      <!-- Header -->
+      <header>
+          <div class="header-content">
+              <div class="logo-section">
+  <img src="https://s.floomby.com/uploads/s/150226/WtvmFcXL.jpg?download=1&name=Screenshot-15-02-2026%2012:56:57.jpg" class="logo">                <div class="brand-name">Marzo Roofing Miami</div>
+              </div>
+              <div class="header-buttons">
+                  <a href="tel:786-659-1786" class="btn-header btn-phone">Call: 786-659-1786</a>
+                  <a href="https://marzoroofing.com/" target="_blank" class="btn-header btn-website">Visit Website</a>
+              </div>
+          </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+          <div class="hero-content">
+              <h1>Expert Roofing Repair Services in Hollywood, FL</h1>
+              <p class="hero-subheading">Trusted roofing contractor delivering professional roof repair, replacement, and installation solutions for residential and commercial properties.</p>
+              <div class="hero-cta">
+                  <a href="https://www.marzoroofing.com/contact/" class="btn-hero btn-secondary">Contact Us</a>
+              </div>
+          </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="animate-on-scroll">
+          <h2 class="section-title">About Marzo Roofing Miami</h2>
+          <div class="about-content">
+              <div class="about-text">
+                  <p>At Marzo Roofing Miami, we are a trusted <a href="https://marzoroofing.com/" target="_blank"><strong>roofing contractor</strong></a> dedicated to protecting homes and businesses throughout Hollywood, FL with superior roofing solutions. Our mission is to deliver exceptional craftsmanship, reliable service, and long-lasting results that stand up to Florida's demanding weather conditions. With years of experience and a commitment to quality, we help property owners maintain safe, durable, and beautiful roofs.</p>
+
+                  <p>As an experienced <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>roofing repair</strong></a> specialist, we understand that your roof is your property's first line of defense. Whether you need emergency repairs, routine maintenance, or complete replacement, our skilled team provides comprehensive solutions tailored to your specific needs. From minor leak repairs to major storm damage restoration, we handle every project with precision and care.</p>
+
+                  <p>Our team takes pride in being a local <a href="https://marzoroofing.com/" target="_blank"><strong>roofing contractor near me</strong></a> that understands the unique challenges of South Florida roofing. We use premium materials, employ expert installation techniques, and stand behind our work with solid warranties. Every project begins with a thorough inspection and honest assessment, ensuring you receive the right solution for your budget and timeline.</p>
+
+                  <p>At Marzo Roofing Miami, customer satisfaction and quality workmanship come first. As your reliable <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>roofing repair</strong></a> partner, we are committed to protecting your investment, enhancing your property's value, and providing peace of mind with roofing solutions that last for decades.</p>
+              </div>
+              <div class="about-images">
+                  <img src="https://img.freepik.com/free-photo/man-walking-roof_1321-1041.jpg?ga=GA1.1.807160594.1771160812" alt="Professional roofing contractor working" class="about-image">
+                  <img src="https://img.freepik.com/premium-photo/man-form-builder-repairs-house_494741-11791.jpg?ga=GA1.1.807160594.1771160812" alt="Quality roof repair services" class="about-image">
+              </div>
+          </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="animate-on-scroll">
+          <h2 class="section-title">Our Roofing Services</h2>
+          <div class="services-grid">
+              <div class="service-card">
+                  <h3>Roofing Repair</h3>
+                  <p>Our expert <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>roofing repair</strong></a> services address all types of roof damage including leaks, missing shingles, storm damage, and structural issues. We provide fast, reliable repairs that restore your roof's integrity and extend its lifespan. Every repair is completed with quality materials and expert craftsmanship to ensure lasting protection for your property.</p>
+              </div>
+              <div class="service-card">
+                  <h3>Roof Replacement</h3>
+                  <p>When repairs are no longer cost-effective, our comprehensive <a href="https://marzoroofing.com/" target="_blank"><strong>roof replacement</strong></a> services provide a complete solution. We remove old roofing materials, inspect the underlying structure, and install a brand new roof system built to withstand Florida's climate. From material selection to final installation, we guide you through every step of the replacement process.</p>
+              </div>
+              <div class="service-card">
+                  <h3>Emergency Roof Repair</h3>
+                  <p>Weather doesn't wait, and neither do we. Our <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>emergency roof repair</strong></a> services are available when you need them most. We respond quickly to storm damage, severe leaks, and urgent roofing issues to prevent further damage to your property. Fast response times and quality temporary solutions protect your home until permanent repairs can be completed.</p>
+              </div>
+              <div class="service-card">
+                  <h3>New Roof Installation</h3>
+                  <p>For new construction or complete roof upgrades, our <a href="https://marzoroofing.com/" target="_blank"><strong>new roof installation</strong></a> services deliver superior results. We work with the finest roofing materials and employ advanced installation techniques to create durable, weather-resistant roof systems. Each installation is customized to your property's architecture and your aesthetic preferences.</p>
+              </div>
+              <div class="service-card">
+                  <h3>Residential Roofing</h3>
+                  <p>Homeowners throughout Hollywood trust our <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>residential roofing</strong></a> expertise to protect their most valuable investment. From asphalt shingles to tile and metal roofing, we install and maintain all types of residential roof systems. Our focus is on quality, durability, and enhancing your home's curb appeal while providing superior weather protection.</p>
+              </div>
+              <div class="service-card">
+                  <h3>Commercial Roofing</h3>
+                  <p>Our <a href="https://marzoroofing.com/" target="_blank"><strong>commercial roofing</strong></a> services protect businesses with reliable, low-maintenance roof systems designed for flat and low-slope applications. We specialize in TPO, EPDM, modified bitumen, and metal roofing systems that minimize downtime and maximize your roof's service life. Professional installation and regular maintenance keep your business protected year-round.</p>
+              </div>
+          </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog" class="animate-on-scroll">
+          <h2 class="section-title">Why Choose Marzo Roofing Miami?</h2>
+          <div class="blog-grid">
+              <article class="blog-article">
+                  <h3>Expert Local Roofing Contractor</h3>
+                  <p>As a trusted <a href="https://marzoroofing.com/" target="_blank"><strong>roofing contractor</strong></a> serving Hollywood, FL, we bring years of experience and deep knowledge of South Florida's unique roofing challenges. Our team specializes in <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>roofing repair</strong></a>, replacement, and installation using the highest quality materials and proven techniques. We understand local building codes, weather patterns, and the best roofing solutions for this climate, ensuring your roof performs optimally for decades.</p>
+              </article>
+              <article class="blog-article">
+                  <h3>Quality Workmanship and Materials</h3>
+                  <p>We never compromise on quality. Every <a href="https://marzoroofing.com/" target="_blank"><strong>roof repair</strong></a> and installation is completed using premium materials from trusted manufacturers, backed by comprehensive warranties. Our skilled craftsmen take pride in their work, paying attention to every detail from initial inspection through final cleanup. This commitment to excellence means your roof will provide superior protection and maintain its appearance for years to come.</p>
+              </article>
+              <article class="blog-article">
+                  <h3>Reliable Service and Fair Pricing</h3>
+                  <p>When you search for an <a href="https://www.google.com/maps?cid=12122646631149931868" target="_blank"><strong>affordable roofing contractor</strong></a> or <a href="https://marzoroofing.com/" target="_blank"><strong>best roofing contractor</strong></a> in Hollywood, FL, you'll find Marzo Roofing Miami delivers both quality and value. We provide transparent, competitive pricing with no hidden fees, flexible financing options, and honest assessments. Our responsive customer service, timely project completion, and dedication to your satisfaction make us the preferred choice for all your roofing needs.</p>
+              </article>
+          </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="animate-on-scroll">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <div class="faq-container">
+              <div class="faq-item">
+                  <div class="faq-question">How do I know if I need roofing repair or a full roof replacement?</div>
+                  <div class="faq-answer">
+                      <p>The decision between repair and replacement depends on several factors including the age of your roof, extent of damage, and overall condition. Generally, if your roof is under 15 years old with localized damage, repair is cost-effective. However, if your roof is older, has widespread damage, multiple leaks, or significant structural issues, replacement may be the better long-term investment. Our team provides honest assessments and will always recommend the most economical solution for your situation.</p>
+                  </div>
+              </div>
+              <div class="faq-item">
+                  <div class="faq-question">How quickly can you respond to emergency roof repairs?</div>
+                  <div class="faq-answer">
+                      <p>We understand that roofing emergencies require immediate attention. Our emergency roof repair team is available to respond quickly, often within hours of your call. We prioritize storm damage, active leaks, and situations that threaten your property's interior. While we provide temporary solutions to stop further damage immediately, we'll also schedule permanent repairs as soon as weather and materials permit.</p>
+                  </div>
+              </div>
+              <div class="faq-item">
+                  <div class="faq-question">What types of roofing materials do you work with?</div>
+                  <div class="faq-answer">
+                      <p>We work with all major roofing materials suitable for South Florida's climate, including asphalt shingles, clay and concrete tiles, metal roofing, flat roof systems (TPO, EPDM, modified bitumen), and more. Each material has unique benefits in terms of durability, energy efficiency, cost, and appearance. During your consultation, we'll explain the pros and cons of each option and help you select the best roofing material for your property, budget, and aesthetic preferences.</p>
+                  </div>
+              </div>
+              <div class="faq-item">
+                  <div class="faq-question">How long does a typical roof repair or replacement take?</div>
+                  <div class="faq-answer">
+                      <p>Timeline varies based on project scope and complexity. Most roof repairs can be completed in one day, while minor repairs may take just a few hours. A complete roof replacement for an average-sized residential property typically takes 2-5 days, depending on roof size, complexity, material choice, and weather conditions. Commercial projects may take longer. We provide detailed timelines during your estimate and keep you informed throughout the project.</p>
+                  </div>
+              </div>
+              <div class="faq-item">
+                  <div class="faq-question">Do you offer warranties on your roofing work?</div>
+                  <div class="faq-answer">
+                      <p>Yes, we stand behind our work with comprehensive warranties. All our roofing installations come with manufacturer warranties on materials (typically 20-50 years depending on the product) plus our own workmanship warranty covering installation quality. Specific warranty terms vary by project type and materials used. We'll clearly explain all warranty coverage before beginning your project, giving you peace of mind and long-term protection for your investment.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Location Section -->
+      <section id="location" class="animate-on-scroll">
+          <h2 class="section-title">Find Us on Google</h2>
+          <div class="location-content">
+              <div class="map-container">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.7066023962934!2d-80.2051906!3d26.010426799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a90d7e1824d1%3A0xa83c4ae1eb470d5c!2sMarzo%20Roofing%20Miami!5e0!3m2!1sen!2sus!4v1771160083868!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+          <div class="footer-content">
+              <div class="footer-section">
+                  <h3>Contact Information</h3>
+                  <p><strong>Marzo Roofing Miami</strong></p>
+                  <p>5845 Hollywood Blvd, Hollywood, FL 33021</p>
+                  <p><a href="tel:786-659-1786">786-659-1786</a></p>
+                  <p><a href="https://marzoroofing.com/" target="_blank">www.marzoroofing.com</a></p>
+              </div>
+              <div class="footer-section">
+                  <h3>Our Services</h3>
+                  <a href="https://marzoroofing.com/">Roofing Repair</a>
+                  <a href="https://marzoroofing.com/">Roof Replacement</a>
+                  <a href="https://marzoroofing.com/">Emergency Roof Repair</a>
+                  <a href="https://marzoroofing.com/">New Roof Installation</a>
+                  <a href="https://marzoroofing.com/">Residential Roofing</a>
+                  <a href="https://marzoroofing.com/">Commercial Roofing</a>
+              </div>
+              <div class="footer-section">
+                  <h3>About Our Roofing Services</h3>
+                  <p>Marzo Roofing Miami provides professional roofing solutions designed to protect and enhance properties throughout Hollywood, FL. We specialize in expert repairs, quality replacements, and reliable installations using premium materials. From emergency services to planned projects, our experienced team delivers superior craftsmanship, honest assessments, and lasting results that provide peace of mind and add value to your property.</p>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2024 Marzo Roofing Miami. All rights reserved.</p>
+          </div>
+      </footer>
+
+      <script>
+          // FAQ Accordion
+          document.querySelectorAll('.faq-question').forEach(question => {
+              question.addEventListener('click', () => {
+                  const answer = question.nextElementSibling;
+                  const isActive = answer.classList.contains('active');
+
+                  // Close all other FAQs
+                  document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('active'));
+                  document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('active'));
+
+                  // Toggle current FAQ
+                  if (!isActive) {
+                      answer.classList.add('active');
+                      question.classList.add('active');
+                  }
+              });
+          });
+
+          // Smooth Scroll for Anchor Links
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+                  const target = document.querySelector(this.getAttribute('href'));
+                  if (target) {
+                      target.scrollIntoView({
+                          behavior: 'smooth',
+                          block: 'start'
+                      });
+                  }
+              });
+          });
+
+          // Scroll Animation Observer
+          const observerOptions = {
+              threshold: 0.1,
+              rootMargin: '0px 0px -50px 0px'
+          };
+
+          const observer = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                      entry.target.classList.add('animated');
+                  }
+              });
+          }, observerOptions);
+
+          document.querySelectorAll('.animate-on-scroll').forEach(el => {
+              observer.observe(el);
+          });
+
+          // Service Cards Stagger Animation
+          const serviceCards = document.querySelectorAll('.service-card');
+          serviceCards.forEach((card, index) => {
+              card.style.animationDelay = `${index * 0.1}s`;
+          });
+      </script>
+  </body>
+  </html>
